@@ -1,0 +1,7 @@
+From devopsedu/webapp
+ADD website /var/lib/docker
+RUN rm /var/lib/docker/index.php
+CMD apachectl -D FOREGROUND
+
+
+
